@@ -2,7 +2,7 @@
 $drupal_hash_salt = ''; # drupal_hash_salt from sites/default/settings.php
 $uid=''; # uid field from users table
 $pass='$S$....'; # password hash field from users table
-$login=''; # login field from users table
+$login=''; # login field from users table (it's a timestamp)
 $timestamp=time();
 
 $data = $timestamp . $login . $uid;
