@@ -4,6 +4,7 @@ If you gain access to a Drupal installation this script can generate a one time 
 
 Data needed:
 - `$drupal_hash_salt` from `sites/default/settings.php`
+
 User info you want to impersonate (`users` database table):
 - uid
 - password hash
